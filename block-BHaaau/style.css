@@ -1,0 +1,233 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  line-height: 1.5;
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  margin: 10px;
+}
+.border {
+  border-bottom: 1px dotted gray;
+  margin: 20px auto;
+  width: 400px;
+}
+/* .box-model-box {
+  width: 100%;
+} */
+.heading-1 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  height: 40px;
+}
+.box-1 {
+  width: 120px;
+  height: 120px;
+  background-color: #dafad4;
+  border: 10px solid #add8e6;
+  outline: 5px solid black;
+  box-shadow: 0 0 0 15px #ed7f80;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.circle-box {
+  margin: 0 auto;
+  height: 50px;
+  width: 400px;
+}
+.circles {
+  display: inline-block;
+  margin: 10px;
+}
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.circle-1 {
+  background-color: #dafad4;
+}
+.circle-2 {
+  background-color: #add8e6;
+}
+.circle-3 {
+  background-color: black;
+}
+.circle-4 {
+  background-color: #ed7f80;
+}
+.exer-2 {
+  width: 600px;
+  height: 130px;
+  border: 1px solid #999999;
+  margin: 0 auto;
+  padding: 5px;
+}
+.box {
+  display: inline-block;
+  width: 180px;
+  height: 100px;
+  background-color: #cccccc;
+  margin: 5px;
+}
+.exer-3 {
+  width: 600px;
+  height: 250px;
+  border: 1px solid #999999;
+  margin: 0 auto;
+}
+.boxes {
+  display: inline-block;
+  width: 180px;
+  height: 100px;
+  background-color: #cccccc;
+  margin: 10px;
+  border: 1px solid black;
+}
+.borders {
+  border: 1px solid black;
+}
+.bottom {
+  margin-bottom: 10px;
+}
