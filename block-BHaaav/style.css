@@ -1,0 +1,215 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 20px;
+  color: white;
+  margin: 20px;
+  font-weight: bold;
+}
+a.heading {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+nav {
+  text-align: center;
+}
+.container-one {
+  background-color: #2d3040;
+  height: 350px;
+}
+.container-two {
+  margin-top: 120px;
+  margin-left: 130px;
+}
+.border {
+  border: 0.6px solid #8a8c95;
+  width: 90%;
+  margin-left: 20px;
+}
+.para-1 {
+  color: #8a8c95;
+  margin: 20px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.container-three {
+  padding-left: 100px;
+}
+/* .container {
+  background-color: #4c5c96;
+} */
+.box-1 {
+  padding: 30px;
+}
+h3 {
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+}
+p {
+  margin: 15px;
+  color: white;
+}
+a.btn {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+.container-box-1 {
+  background-color: #4c5c96;
+}
+.container-box-2 {
+  background-color: #45558d;
+}
+.container-box-3 {
+  background-color: #3f4e85;
+}
+footer {
+  background-color: #2d3040;
+  width: 100%;
+  height: 50px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+h4 {
+  margin-left: 100px;
+  color: #8a8c95;
+}
