@@ -127,53 +127,37 @@ h1 {
   font-weight: bold;
   margin: 15px;
 }
-.box-1 {
+.box {
+  display: inline-block;
   width: 100px;
   height: 80px;
   background-color: #b22e25;
   border: 3px solid black;
   margin: 15px;
 }
+.box-1 {
+  border: 3px solid black;
+}
+
 .box-2 {
-  display: inline-block;
-  width: 100px;
-  height: 80px;
-  background-color: #b22e25;
   border: 3px double black;
-  margin: 15px;
 }
 
 .box-3 {
-  display: inline-block;
-  width: 100px;
-  height: 80px;
-  background-color: #b22e25;
   border: 3px dashed black;
-  margin: 15px;
 }
 
 .box-4 {
-  display: inline-block;
-  width: 100px;
-  height: 80px;
   background-color: #b22e25;
-  border: 3px dotted black;
-  margin: 15px;
 }
 .box-5 {
-  display: inline-block;
-  width: 100px;
-  height: 80px;
-  background-color: #b22e25;
   border: none;
-  margin: 15px;
 }
 .box-6 {
-  border-top: 17px solid #812e80;
-  border-bottom: 17px solid #812e80;
-  border-right: 10px solid #812e80;
-  border-left: 10px solid #812e80;
-  width: 270px;
+  background-color: #812e80;
+  display: inline-block;
+  padding: 20px 15px;
+  margin: 15px;
 }
 .para {
   width: 220px;
